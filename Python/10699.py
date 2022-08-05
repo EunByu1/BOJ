@@ -1,4 +1,4 @@
-# [0] 날짜/시간 모듈 import
+# [0] 날짜/시간 모듈 import 
 import datetime
 
 # [1] 날짜/시간 정보 가져옴 -> format
