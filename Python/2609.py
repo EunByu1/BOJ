@@ -1,3 +1,4 @@
+# GCD & LCM 문제
 a, b     = map(int, input().split())
 multiply = a * b
 
