@@ -1,3 +1,4 @@
+# Stack 활용 문제 
 for _ in range(int(input())):
     stk = []
     isVPS = True
