@@ -15,3 +15,19 @@ while (x < 1001) :
         x += 1
         
 print(ans)
+
+
+# Greedy Algorithm [좌표압축]
+N, L = map(int, input().split())
+coord = list(map(int, input().split()))
+coord.sort()
+
+ans = 0 # 테이프 개수
+x   = 0 # 포인트 역할
+
+for i in coord:
+    if x <= i:
+        ans += 1
+        x    = i + L
+    
+print(ans)
