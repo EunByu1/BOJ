@@ -5,7 +5,7 @@ sys.setrecursionlimit(10 ** 7)
 MOD = 10007
 
 cache = [[0] * 1001 for _ in range(1001)]
-N, K = map(int, input().split())
+N, K  = map(int, input().split())
 
 def bino(n, k):
     if cache[n][k]:
@@ -24,8 +24,9 @@ print(bino(N, K))
 
 # [Bottom-up]
 MOD = 10007
+
 cache = [[0] * 1001 for _ in range(1001)]
-N, K = map(int, input().split())
+N, K  = map(int, input().split())
 
 for i in range(1001):
     cache[i][0] = cache[i][i] = 1
